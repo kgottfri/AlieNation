@@ -1,0 +1,287 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 6, 2016, 10:37:03 PM
+    Author     : kevingottfried
+*/
+#index{
+    background-color: #333;
+    background-image: url('images/index.JPG');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+body{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#new{
+    background-color: #333;
+    background-image: url('images/index.JPG');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#about{
+    background-color: #333;
+    background-image: url('images/index.JPG');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+
+#form{
+    background-color: #333;
+    background-image: url('images/index.JPG');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+}
+
+#research{
+    background-color: #333;
+    background-image: url('images/index.JPG');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#report{
+    background-color: #333;
+    background-image: url('images/index.JPG');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+.active page{
+    background-color: #222;
+}
+nav{
+    padding-bottom: 1em;
+}
+
+nav p{
+    padding-top: 3px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+nav ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+/*    background-color: #f2f2f2;    */
+}
+
+nav li{
+    float: left;
+}
+nav li a {
+    display: block;
+    color: #f2f2f2;
+    vertical-align: 40%;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+h1{
+   /*-webkit-text-stroke: 1px black;*/
+   color: #f2f2f2;
+   text-shadow:
+       3px 3px 0 #888,
+     -1px -1px 0 #888,  
+      1px -1px 0 #888,
+      -1px 1px 0 #888,
+       1px 1px 0 #888;
+    
+}
+
+/* need to clear any floats that may exist */
+fieldset{
+    background-color: rgba(50, 50, 50, .6);
+    border: 1px solid lightsteelblue;
+    clear: both;
+}
+.buttons{
+    background-color: rgba(0,0,0,0)
+}
+/* just pushes content to left side of the box. */
+fieldset.contact{
+    float: left;
+    padding-right: 68%;
+}
+
+/* when you look at the labels this pushes then next to the input and right
+aligns them. Display block means they are each on their own line. */
+fieldset.contact label{
+    display: block;
+    text-align: right; /* pushes the text to the right where they line up */
+         /* the float left above pushes everything back to the left*/
+}
+
+fieldset.contact input{
+    width: 15em; /* works with above to be the same for the boxes */ 
+}
+
+fieldset.buttons{
+    border: none;
+}
+
+fieldset.contact legend{
+    color: #f2f2f2;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/***********************************************************************/
+
+label{
+    color: burlywood;
+    display: block;
+    font-weight: bold;
+}
+
+/* style the errors in the form so they are visible */
+.mistake {
+    color: #ffffff;
+    background-color: #880000;
+    border: thin solid #000;
+}
+legend{
+    color: #f2f2f2;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#about ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+.required{
+    color: #f3f3f3;
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.mistake legend{
+    padding-top: 1.5em;
+}
+#errors{
+    color: #ff5555;
+}
+#errors ol li{
+    color: #ff5555;
+}
+.main{
+    padding: 1em;
+    color: black;
+}
+.background {
+    background-image: url('index.JPG');
+}
+#one{
+    position: relative;
+}
+#index article{
+    
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(190, 190, 190, .6);
+    color: black;
+    
+}
+p{
+    font-size: 18px;
+    font-family: fantasy;
+/*    font-weight: bold;*/
+}
+.image-wrapper{
+        width: 200px;
+        
+        float: left;
+        padding: 1em;
+}
+.image-wrapper img{
+    /*float: left ;*/
+/*    padding-right: 1em;
+    padding-bottom: 1em;
+    max-height: 250px;
+    max-width: 250px;*/
+    padding: .5em;
+    width: 100%;
+    height: 100%;
+}
+
+.divider {
+    height: 1px;
+    background-color: #111111;
+    margin-left: auto;
+    width: 90%;
+    
+}
+
+#research .divider {
+    height: 1px;
+    background-color: #111111;
+    margin-left: auto;
+    width: 100%;
+}
+
+.align{
+    padding-left: 1.5em;
+    text-align: left;
+}
+
+.source{
+    padding: 3px 0 20px 0;
+    font-size: 12px;
+    color: #999;
+    font-style: italic;
+}
+
+#research article{
+    float: left;
+    padding-top: 1em;
+    padding-bottom: .5em;
+    background-color: rgba(190, 190, 190, .6);
+    color: white;
+}
+
+#new article{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(190, 190, 190, .6);
+    color: black;
+}
+
+#about article{
+    height: 420px;
+    overflow: auto;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(190, 190, 190, .6);
+    color: black;
+}
