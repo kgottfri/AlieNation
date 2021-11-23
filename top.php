@@ -8,7 +8,7 @@
         <meta name="description" content="You are the Alien" >
         <meta name ="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="alien.css">
-        <link rel="icon" type ="image/jpg" href="//kgottfri.w3.uvm.edu/AlieNation/favicon.png">
+        <link rel="icon" type ="image/jpg" href="favicon.png">
     
         <?php
         $debug = false;
